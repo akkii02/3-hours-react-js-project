@@ -1,0 +1,37 @@
+.data {
+  width: 90%;
+  margin: 20px 5%;
+  padding: 10px;
+  box-shadow: 0px 2px 12px grey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between; /* Align items at the start and end */
+}
+
+.data div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.data span {
+  margin: 0 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.button {
+  padding: 6px 20px;
+  background-color: #8a2b06;
+  color: #ffffff;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 0 10px;
+}
